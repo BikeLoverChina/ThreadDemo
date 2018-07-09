@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F86E630020F319D600FAA75A /* LockBaseObject.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E62FF20F319D600FAA75A /* LockBaseObject.m */; };
+		F86E630320F31A7300FAA75A /* OSSpinLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E630220F31A7300FAA75A /* OSSpinLockDemo.m */; };
+		F86E630920F31D4600FAA75A /* OSUNFairLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E630820F31D4600FAA75A /* OSUNFairLockDemo.m */; };
+		F86E630F20F320C100FAA75A /* MutexLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E630E20F320C100FAA75A /* MutexLockDemo.m */; };
+		F86E631220F3227C00FAA75A /* MutexLockDemo2.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E631120F3227C00FAA75A /* MutexLockDemo2.m */; };
+		F86E631520F3A46800FAA75A /* MutexLockDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E631420F3A46800FAA75A /* MutexLockDemo3.m */; };
+		F86E631820F3A8A800FAA75A /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E631720F3A8A800FAA75A /* NSLockDemo.m */; };
+		F86E631B20F3ABF000FAA75A /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E631A20F3ABF000FAA75A /* NSConditionDemo.m */; };
 		F8E6064220F1095800161BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6064120F1095800161BFF /* AppDelegate.m */; };
 		F8E6064520F1095800161BFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6064420F1095800161BFF /* ViewController.m */; };
 		F8E6064820F1095800161BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E6064620F1095800161BFF /* Main.storyboard */; };
@@ -35,6 +43,22 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F86E62FE20F319D600FAA75A /* LockBaseObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LockBaseObject.h; sourceTree = "<group>"; };
+		F86E62FF20F319D600FAA75A /* LockBaseObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = LockBaseObject.m; sourceTree = "<group>"; };
+		F86E630120F31A7300FAA75A /* OSSpinLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSSpinLockDemo.h; sourceTree = "<group>"; };
+		F86E630220F31A7300FAA75A /* OSSpinLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSSpinLockDemo.m; sourceTree = "<group>"; };
+		F86E630720F31D4600FAA75A /* OSUNFairLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSUNFairLockDemo.h; sourceTree = "<group>"; };
+		F86E630820F31D4600FAA75A /* OSUNFairLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSUNFairLockDemo.m; sourceTree = "<group>"; };
+		F86E630D20F320C100FAA75A /* MutexLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexLockDemo.h; sourceTree = "<group>"; };
+		F86E630E20F320C100FAA75A /* MutexLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexLockDemo.m; sourceTree = "<group>"; };
+		F86E631020F3227C00FAA75A /* MutexLockDemo2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexLockDemo2.h; sourceTree = "<group>"; };
+		F86E631120F3227C00FAA75A /* MutexLockDemo2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexLockDemo2.m; sourceTree = "<group>"; };
+		F86E631320F3A46800FAA75A /* MutexLockDemo3.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MutexLockDemo3.h; sourceTree = "<group>"; };
+		F86E631420F3A46800FAA75A /* MutexLockDemo3.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MutexLockDemo3.m; sourceTree = "<group>"; };
+		F86E631620F3A8A800FAA75A /* NSLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSLockDemo.h; sourceTree = "<group>"; };
+		F86E631720F3A8A800FAA75A /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
+		F86E631920F3ABF000FAA75A /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
+		F86E631A20F3ABF000FAA75A /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
 		F8E6063D20F1095800161BFF /* ThreadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E6064020F1095800161BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8E6064120F1095800161BFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -78,6 +102,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F86E62FD20F319B100FAA75A /* Lock */ = {
+			isa = PBXGroup;
+			children = (
+				F86E62FE20F319D600FAA75A /* LockBaseObject.h */,
+				F86E62FF20F319D600FAA75A /* LockBaseObject.m */,
+				F86E630120F31A7300FAA75A /* OSSpinLockDemo.h */,
+				F86E630220F31A7300FAA75A /* OSSpinLockDemo.m */,
+				F86E630720F31D4600FAA75A /* OSUNFairLockDemo.h */,
+				F86E630820F31D4600FAA75A /* OSUNFairLockDemo.m */,
+				F86E630D20F320C100FAA75A /* MutexLockDemo.h */,
+				F86E630E20F320C100FAA75A /* MutexLockDemo.m */,
+				F86E631020F3227C00FAA75A /* MutexLockDemo2.h */,
+				F86E631120F3227C00FAA75A /* MutexLockDemo2.m */,
+				F86E631320F3A46800FAA75A /* MutexLockDemo3.h */,
+				F86E631420F3A46800FAA75A /* MutexLockDemo3.m */,
+				F86E631620F3A8A800FAA75A /* NSLockDemo.h */,
+				F86E631720F3A8A800FAA75A /* NSLockDemo.m */,
+				F86E631920F3ABF000FAA75A /* NSConditionDemo.h */,
+				F86E631A20F3ABF000FAA75A /* NSConditionDemo.m */,
+			);
+			path = Lock;
+			sourceTree = "<group>";
+		};
 		F8E6063420F1095800161BFF = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +148,7 @@
 		F8E6063F20F1095800161BFF /* ThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F86E62FD20F319B100FAA75A /* Lock */,
 				F8E6064020F1095800161BFF /* AppDelegate.h */,
 				F8E6064120F1095800161BFF /* AppDelegate.m */,
 				F8E6064320F1095800161BFF /* ViewController.h */,
@@ -263,8 +311,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8E6064520F1095800161BFF /* ViewController.m in Sources */,
+				F86E631B20F3ABF000FAA75A /* NSConditionDemo.m in Sources */,
+				F86E631520F3A46800FAA75A /* MutexLockDemo3.m in Sources */,
+				F86E630320F31A7300FAA75A /* OSSpinLockDemo.m in Sources */,
 				F8E6065020F1095900161BFF /* main.m in Sources */,
+				F86E631820F3A8A800FAA75A /* NSLockDemo.m in Sources */,
+				F86E630F20F320C100FAA75A /* MutexLockDemo.m in Sources */,
+				F86E630020F319D600FAA75A /* LockBaseObject.m in Sources */,
 				F8E6064220F1095800161BFF /* AppDelegate.m in Sources */,
+				F86E631220F3227C00FAA75A /* MutexLockDemo2.m in Sources */,
+				F86E630920F31D4600FAA75A /* OSUNFairLockDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
