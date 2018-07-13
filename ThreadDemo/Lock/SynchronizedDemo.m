@@ -10,4 +10,20 @@
 
 @implementation SynchronizedDemo
 
+- (instancetype)init
+{
+    if (self = [super init]) {
+        [self startSaleTicket];
+    }
+    return self;
+}
+
+- (void)saleTicket
+{
+    @synchronized (self) {
+        NSLog(@"====");
+        [super saleTicket];
+    }
+}
+
 @end

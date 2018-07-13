@@ -14,6 +14,12 @@
 #import "MutexLockDemo3.h"
 #import "NSLockDemo.h"
 #import "NSConditionDemo.h"
+#import "NSConditionLockDemo.h"
+#import "SerialQueueDemo.h"
+#import "SemaphoreDemo.h"
+#import "SynchronizedDemo.h"
+#import "PThreadRWLockDemo.h"
+#import "BarrierLockDemo.h"
 
 @interface ViewController ()
 
@@ -225,7 +231,25 @@
 //    NSLockDemo *lock = [[NSLockDemo alloc] init];
     
     // NSConditionLock
-    NSConditionDemo *condition = [[NSConditionDemo alloc] init];
+//    NSConditionDemo *condition = [[NSConditionDemo alloc] init];
+    
+//    NSConditionLockDemo *conditionLock = [[NSConditionLockDemo alloc] init];
+    
+    // Queue
+//    SerialQueueDemo *queueLock = [[SerialQueueDemo alloc] init];
+    
+    // Semaphore
+//    SemaphoreDemo *semaphore = [[SemaphoreDemo alloc] init];
+    
+    // SynChronized
+//    SynchronizedDemo *synChronized = [[SynchronizedDemo alloc] init];
+    
+    // PThreadRWLock
+//    PThreadRWLockDemo *rwLockDemo = [[PThreadRWLockDemo alloc] init];
+    
+    // Barrier
+    BarrierLockDemo *barrierDemo = [[BarrierLockDemo alloc] init];
+    
 }
 
 @end

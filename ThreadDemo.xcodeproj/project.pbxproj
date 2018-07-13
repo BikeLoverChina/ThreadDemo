@@ -15,6 +15,12 @@
 		F86E631520F3A46800FAA75A /* MutexLockDemo3.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E631420F3A46800FAA75A /* MutexLockDemo3.m */; };
 		F86E631820F3A8A800FAA75A /* NSLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E631720F3A8A800FAA75A /* NSLockDemo.m */; };
 		F86E631B20F3ABF000FAA75A /* NSConditionDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E631A20F3ABF000FAA75A /* NSConditionDemo.m */; };
+		F86E631E20F3B34200FAA75A /* NSConditionLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E631D20F3B34200FAA75A /* NSConditionLockDemo.m */; };
+		F86E632120F3B4DD00FAA75A /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E632020F3B4DD00FAA75A /* SerialQueueDemo.m */; };
+		F86E632420F3B6F400FAA75A /* SemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E632320F3B6F400FAA75A /* SemaphoreDemo.m */; };
+		F8AB06B520F82CD100C94E06 /* BarrierLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB06B420F82CD100C94E06 /* BarrierLockDemo.m */; };
+		F8B1E91920F4FC8500546D1B /* SynchronizedDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E91820F4FC8500546D1B /* SynchronizedDemo.m */; };
+		F8B1E91C20F508FC00546D1B /* PThreadRWLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E91B20F508FC00546D1B /* PThreadRWLockDemo.m */; };
 		F8E6064220F1095800161BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6064120F1095800161BFF /* AppDelegate.m */; };
 		F8E6064520F1095800161BFF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6064420F1095800161BFF /* ViewController.m */; };
 		F8E6064820F1095800161BFF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8E6064620F1095800161BFF /* Main.storyboard */; };
@@ -59,6 +65,18 @@
 		F86E631720F3A8A800FAA75A /* NSLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSLockDemo.m; sourceTree = "<group>"; };
 		F86E631920F3ABF000FAA75A /* NSConditionDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionDemo.h; sourceTree = "<group>"; };
 		F86E631A20F3ABF000FAA75A /* NSConditionDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionDemo.m; sourceTree = "<group>"; };
+		F86E631C20F3B34200FAA75A /* NSConditionLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NSConditionLockDemo.h; sourceTree = "<group>"; };
+		F86E631D20F3B34200FAA75A /* NSConditionLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NSConditionLockDemo.m; sourceTree = "<group>"; };
+		F86E631F20F3B4DD00FAA75A /* SerialQueueDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SerialQueueDemo.h; sourceTree = "<group>"; };
+		F86E632020F3B4DD00FAA75A /* SerialQueueDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SerialQueueDemo.m; sourceTree = "<group>"; };
+		F86E632220F3B6F400FAA75A /* SemaphoreDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SemaphoreDemo.h; sourceTree = "<group>"; };
+		F86E632320F3B6F400FAA75A /* SemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemo.m; sourceTree = "<group>"; };
+		F8AB06B320F82CD100C94E06 /* BarrierLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrierLockDemo.h; sourceTree = "<group>"; };
+		F8AB06B420F82CD100C94E06 /* BarrierLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrierLockDemo.m; sourceTree = "<group>"; };
+		F8B1E91720F4FC8500546D1B /* SynchronizedDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynchronizedDemo.h; sourceTree = "<group>"; };
+		F8B1E91820F4FC8500546D1B /* SynchronizedDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronizedDemo.m; sourceTree = "<group>"; };
+		F8B1E91A20F508FC00546D1B /* PThreadRWLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PThreadRWLockDemo.h; sourceTree = "<group>"; };
+		F8B1E91B20F508FC00546D1B /* PThreadRWLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PThreadRWLockDemo.m; sourceTree = "<group>"; };
 		F8E6063D20F1095800161BFF /* ThreadDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThreadDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8E6064020F1095800161BFF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F8E6064120F1095800161BFF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -121,6 +139,18 @@
 				F86E631720F3A8A800FAA75A /* NSLockDemo.m */,
 				F86E631920F3ABF000FAA75A /* NSConditionDemo.h */,
 				F86E631A20F3ABF000FAA75A /* NSConditionDemo.m */,
+				F86E631C20F3B34200FAA75A /* NSConditionLockDemo.h */,
+				F86E631D20F3B34200FAA75A /* NSConditionLockDemo.m */,
+				F86E631F20F3B4DD00FAA75A /* SerialQueueDemo.h */,
+				F86E632020F3B4DD00FAA75A /* SerialQueueDemo.m */,
+				F86E632220F3B6F400FAA75A /* SemaphoreDemo.h */,
+				F86E632320F3B6F400FAA75A /* SemaphoreDemo.m */,
+				F8B1E91720F4FC8500546D1B /* SynchronizedDemo.h */,
+				F8B1E91820F4FC8500546D1B /* SynchronizedDemo.m */,
+				F8B1E91A20F508FC00546D1B /* PThreadRWLockDemo.h */,
+				F8B1E91B20F508FC00546D1B /* PThreadRWLockDemo.m */,
+				F8AB06B320F82CD100C94E06 /* BarrierLockDemo.h */,
+				F8AB06B420F82CD100C94E06 /* BarrierLockDemo.m */,
 			);
 			path = Lock;
 			sourceTree = "<group>";
@@ -313,12 +343,18 @@
 				F8E6064520F1095800161BFF /* ViewController.m in Sources */,
 				F86E631B20F3ABF000FAA75A /* NSConditionDemo.m in Sources */,
 				F86E631520F3A46800FAA75A /* MutexLockDemo3.m in Sources */,
+				F86E632120F3B4DD00FAA75A /* SerialQueueDemo.m in Sources */,
 				F86E630320F31A7300FAA75A /* OSSpinLockDemo.m in Sources */,
 				F8E6065020F1095900161BFF /* main.m in Sources */,
+				F8AB06B520F82CD100C94E06 /* BarrierLockDemo.m in Sources */,
+				F8B1E91920F4FC8500546D1B /* SynchronizedDemo.m in Sources */,
 				F86E631820F3A8A800FAA75A /* NSLockDemo.m in Sources */,
+				F86E631E20F3B34200FAA75A /* NSConditionLockDemo.m in Sources */,
 				F86E630F20F320C100FAA75A /* MutexLockDemo.m in Sources */,
+				F86E632420F3B6F400FAA75A /* SemaphoreDemo.m in Sources */,
 				F86E630020F319D600FAA75A /* LockBaseObject.m in Sources */,
 				F8E6064220F1095800161BFF /* AppDelegate.m in Sources */,
+				F8B1E91C20F508FC00546D1B /* PThreadRWLockDemo.m in Sources */,
 				F86E631220F3227C00FAA75A /* MutexLockDemo2.m in Sources */,
 				F86E630920F31D4600FAA75A /* OSUNFairLockDemo.m in Sources */,
 			);
