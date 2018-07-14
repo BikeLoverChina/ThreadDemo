@@ -19,6 +19,11 @@
 		F86E632120F3B4DD00FAA75A /* SerialQueueDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E632020F3B4DD00FAA75A /* SerialQueueDemo.m */; };
 		F86E632420F3B6F400FAA75A /* SemaphoreDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F86E632320F3B6F400FAA75A /* SemaphoreDemo.m */; };
 		F8AB06B520F82CD100C94E06 /* BarrierLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB06B420F82CD100C94E06 /* BarrierLockDemo.m */; };
+		F8AB06B920F8343D00C94E06 /* TimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB06B820F8343D00C94E06 /* TimerViewController.m */; };
+		F8AB06BC20F8351500C94E06 /* TProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB06BB20F8351500C94E06 /* TProxy.m */; };
+		F8AB06BF20F8357C00C94E06 /* TProxy1.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB06BE20F8357C00C94E06 /* TProxy1.m */; };
+		F8AB06C620F9D86D00C94E06 /* GCDTimerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB06C520F9D86D00C94E06 /* GCDTimerViewController.m */; };
+		F8AB06C920F9D8ED00C94E06 /* GCDTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = F8AB06C820F9D8ED00C94E06 /* GCDTimer.m */; };
 		F8B1E91920F4FC8500546D1B /* SynchronizedDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E91820F4FC8500546D1B /* SynchronizedDemo.m */; };
 		F8B1E91C20F508FC00546D1B /* PThreadRWLockDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = F8B1E91B20F508FC00546D1B /* PThreadRWLockDemo.m */; };
 		F8E6064220F1095800161BFF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F8E6064120F1095800161BFF /* AppDelegate.m */; };
@@ -73,6 +78,16 @@
 		F86E632320F3B6F400FAA75A /* SemaphoreDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SemaphoreDemo.m; sourceTree = "<group>"; };
 		F8AB06B320F82CD100C94E06 /* BarrierLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrierLockDemo.h; sourceTree = "<group>"; };
 		F8AB06B420F82CD100C94E06 /* BarrierLockDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrierLockDemo.m; sourceTree = "<group>"; };
+		F8AB06B720F8343D00C94E06 /* TimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TimerViewController.h; sourceTree = "<group>"; };
+		F8AB06B820F8343D00C94E06 /* TimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TimerViewController.m; sourceTree = "<group>"; };
+		F8AB06BA20F8351500C94E06 /* TProxy.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProxy.h; sourceTree = "<group>"; };
+		F8AB06BB20F8351500C94E06 /* TProxy.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TProxy.m; sourceTree = "<group>"; };
+		F8AB06BD20F8357C00C94E06 /* TProxy1.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TProxy1.h; sourceTree = "<group>"; };
+		F8AB06BE20F8357C00C94E06 /* TProxy1.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TProxy1.m; sourceTree = "<group>"; };
+		F8AB06C420F9D86D00C94E06 /* GCDTimerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTimerViewController.h; sourceTree = "<group>"; };
+		F8AB06C520F9D86D00C94E06 /* GCDTimerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimerViewController.m; sourceTree = "<group>"; };
+		F8AB06C720F9D8ED00C94E06 /* GCDTimer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GCDTimer.h; sourceTree = "<group>"; };
+		F8AB06C820F9D8ED00C94E06 /* GCDTimer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GCDTimer.m; sourceTree = "<group>"; };
 		F8B1E91720F4FC8500546D1B /* SynchronizedDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SynchronizedDemo.h; sourceTree = "<group>"; };
 		F8B1E91820F4FC8500546D1B /* SynchronizedDemo.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SynchronizedDemo.m; sourceTree = "<group>"; };
 		F8B1E91A20F508FC00546D1B /* PThreadRWLockDemo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PThreadRWLockDemo.h; sourceTree = "<group>"; };
@@ -155,6 +170,23 @@
 			path = Lock;
 			sourceTree = "<group>";
 		};
+		F8AB06B620F8342E00C94E06 /* Timer */ = {
+			isa = PBXGroup;
+			children = (
+				F8AB06B720F8343D00C94E06 /* TimerViewController.h */,
+				F8AB06B820F8343D00C94E06 /* TimerViewController.m */,
+				F8AB06BA20F8351500C94E06 /* TProxy.h */,
+				F8AB06BB20F8351500C94E06 /* TProxy.m */,
+				F8AB06BD20F8357C00C94E06 /* TProxy1.h */,
+				F8AB06BE20F8357C00C94E06 /* TProxy1.m */,
+				F8AB06C420F9D86D00C94E06 /* GCDTimerViewController.h */,
+				F8AB06C520F9D86D00C94E06 /* GCDTimerViewController.m */,
+				F8AB06C720F9D8ED00C94E06 /* GCDTimer.h */,
+				F8AB06C820F9D8ED00C94E06 /* GCDTimer.m */,
+			);
+			path = Timer;
+			sourceTree = "<group>";
+		};
 		F8E6063420F1095800161BFF = {
 			isa = PBXGroup;
 			children = (
@@ -178,6 +210,7 @@
 		F8E6063F20F1095800161BFF /* ThreadDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F8AB06B620F8342E00C94E06 /* Timer */,
 				F86E62FD20F319B100FAA75A /* Lock */,
 				F8E6064020F1095800161BFF /* AppDelegate.h */,
 				F8E6064120F1095800161BFF /* AppDelegate.m */,
@@ -347,15 +380,20 @@
 				F86E630320F31A7300FAA75A /* OSSpinLockDemo.m in Sources */,
 				F8E6065020F1095900161BFF /* main.m in Sources */,
 				F8AB06B520F82CD100C94E06 /* BarrierLockDemo.m in Sources */,
+				F8AB06BF20F8357C00C94E06 /* TProxy1.m in Sources */,
+				F8AB06C920F9D8ED00C94E06 /* GCDTimer.m in Sources */,
 				F8B1E91920F4FC8500546D1B /* SynchronizedDemo.m in Sources */,
 				F86E631820F3A8A800FAA75A /* NSLockDemo.m in Sources */,
 				F86E631E20F3B34200FAA75A /* NSConditionLockDemo.m in Sources */,
+				F8AB06C620F9D86D00C94E06 /* GCDTimerViewController.m in Sources */,
 				F86E630F20F320C100FAA75A /* MutexLockDemo.m in Sources */,
 				F86E632420F3B6F400FAA75A /* SemaphoreDemo.m in Sources */,
+				F8AB06B920F8343D00C94E06 /* TimerViewController.m in Sources */,
 				F86E630020F319D600FAA75A /* LockBaseObject.m in Sources */,
 				F8E6064220F1095800161BFF /* AppDelegate.m in Sources */,
 				F8B1E91C20F508FC00546D1B /* PThreadRWLockDemo.m in Sources */,
 				F86E631220F3227C00FAA75A /* MutexLockDemo2.m in Sources */,
+				F8AB06BC20F8351500C94E06 /* TProxy.m in Sources */,
 				F86E630920F31D4600FAA75A /* OSUNFairLockDemo.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
